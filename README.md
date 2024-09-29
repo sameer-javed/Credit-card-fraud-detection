@@ -1,11 +1,13 @@
-# Introduction 
+# 🚨 Tackling Credit Card Fraud with Predictive Modeling! 💳📊
 
-The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+Excited to share my recent work on developing a Credit Card Fraud Detection System! By balancing and transforming the dataset, I’ve built a powerful predictive model using Logistic Regression that accurately identifies fraudulent transactions.
 
-It contains only numerical input variables which are the result of a PCA transformation.
+What I did:
 
-Due to confidentiality issues, there are not provided the original features and more background information about the data.
+Preprocessed and balanced the data to handle the class imbalance (a common challenge in fraud detection).
+Transformed key features for better prediction.
+Built a robust Logistic Regression model to detect fraudulent patterns with great accuracy.
+Developed an interactive Streamlit web app to allow real-time input to the model via a simple and user-friendly Chrome browser interface.
+This project demonstrates how data science and web technologies can combine to tackle real-world problems and enhance financial security. 🚀
 
-Features V1, V2, ... V28 are the principal components obtained with PCA;
-The only features which have not been transformed with PCA are Time and Amount. Feature Time contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature Amount is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
-Feature Class is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+#MachineLearning #FraudDetection #DataScience #LogisticRegression #CreditCardFraud #Streamlit #WebApp #PredictiveModeling #AI #TechInnovation
